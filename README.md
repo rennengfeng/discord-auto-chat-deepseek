@@ -62,17 +62,9 @@
 
 3. **Customize your configuration**:
     - You can modify the `config.yaml` file to add more tokens, channel IDs, and adjust delays as needed.
+4. **deepseek-api**
+    - 在api.key中输入deepseek的api
 
-## Example `chat.txt`
-
-Your `chat.txt` file might look like this:
-
-   ```
-   Hello there!
-   How's it going?
-   This is a random message.
-   Have a great day!
-   ```
 
 ## Notes
 
