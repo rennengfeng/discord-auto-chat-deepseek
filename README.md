@@ -1,11 +1,11 @@
-# Simple DiscordBot JS
+# DiscordBot-deepseek
 
-This is a simple Discord bot script that allows you to send messages to multiple channels using a list of messages stored in a text file. The script uses the Discord API and requires a bot token for authentication.
+调用deepseek-API,智能回复。
 
 ## Features
 
-- Send messages from multiple account to multiple Discord channels.
-- Customize message delays and token processing.
+- 通过对最新消息进行识别分析，自动生成回复消息
+- 自动识别频道冷却时间
 
 ## Prerequisites
 
