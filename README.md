@@ -44,7 +44,7 @@
     ```
     注意: javascript:字词可能会被浏览器自动删除，您可以手动输入。
 
-4. **Edit the `api.key` 文件** 调用你的deepseek-api.
+4. **编辑 `api.key` 文件** 调用你的deepseek-api.
 
 ## 使用方法
 
