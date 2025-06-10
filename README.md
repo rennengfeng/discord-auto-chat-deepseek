@@ -46,7 +46,7 @@
 
 4. **Edit the `api.key` 文件** 调用你的deepseek-api.
 
-## Usage
+## 使用方法
 
 1. **运行脚本:**:
     ```bash
