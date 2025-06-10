@@ -2,30 +2,30 @@
 
 调用deepseek-API,智能回复。
 
-## Features
+## 特性
 
 - 通过对最新消息进行识别分析，自动生成回复消息
 - 自动识别频道冷却时间
 
-## Prerequisites
+## 前提条件
 
 - Node.js (version 14 or higher)
 - npm (Node package manager)
 
-## Installation
+## 安装
 
-1. **Clone the repository** (or download the script):
+1. **克隆仓库** (或下载脚本)):
     ```bash
     git clone https://github.com/recitativonika/Discord-auto-chat-js.git
     cd Discord-auto-chat-js
     ```
 
-2. **Install the required dependencies**:
+2. **安装所需的依赖项:**:
     ```bash
     npm install
     ```
 
-3. **Edit  `config.yaml` file** in the same directory as the script with the following structure:
+3. **编辑与脚本位于同一目录下的 config·yam1 文件，具有以下结构:**
     ```yaml
     token:
       - "your_token_1"
@@ -38,17 +38,17 @@
     message_delay: 2  # Delay for each message sent in seconds
     restart_delay: 10  # Delay before restarting the bot in seconds
     ```
-    Get the token for your discord account with this, pasten in url bar when you open discord web
+    使用此方法获取您的 Discord 账户的令牌，在打开 Discord 网页版时将令牌粘贴到 URL 栏
     ```
     javascript:var i = document.createElement('iframe');i.onload = function(){var localStorage = i.contentWindow.localStorage;prompt('Your discord token', localStorage.getItem('token').replace(/["]+/g, ''));};document.body.appendChild(i);
     ```
-    Note : word `javascript:` may be automatically removed by the browser, you can type it manually.
+    注意: javascript:字词可能会被浏览器自动删除，您可以手动输入。
 
-4. **Edit the `chat.txt` file** with the messages you want the bot to send. Each message should be on a new line.
+4. **Edit the `api.key` file** 调用你的deepseek-api.
 
 ## Usage
 
-1. **Run the script**:
+1. **运行脚本:**:
     ```bash
     npm start
     ```
@@ -56,26 +56,24 @@
     ```bash
     node index.js
     ```
-2. **Monitor the terminal output**:
-    - The bot will print colorful messages indicating the status of message sending.
-    - If any errors occur, they will be displayed in red.
+2. **监控终端输出:**:
+    - 机器人将打印彩色消息，显示消息发送的状态。
+    - 如果出现错误，它们将以红色显示。
 
-3. **Customize your configuration**:
-    - You can modify the `config.yaml` file to add more tokens, channel IDs, and adjust delays as needed.
-4. **deepseek-api**
-    - 在api.key中输入deepseek的api
+3. **自定义你的配置:**:
+    - 你可以修改 config.yam1 文件来添加更多token、频道 ID。
 
 
-## Notes
+## 提示
 
-- Make sure your bot is invited to the channels you want to send messages to.
-- Ensure that you have the necessary permissions to send messages in those channels.
+- 确保您的机器人被邀请到您想要发送消息的频道。
+- 确保您拥有在这些频道中发送消息的必要权限。
 
-## License
+## 许可证
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+本项目根据 MIT 许可证授权。更多详情请参阅 LICENSE 文件。.
 
-## Acknowledgments
+## 致谢
 
-- Inspired by the Discord API documentation.
-- Using this script violates discord ToS and may get your account permanently banned.
+- 受 Discord API 文档启发。
+- 使用此脚本违反 Discord 服务条款，可能会导致您的账号永久封禁。
